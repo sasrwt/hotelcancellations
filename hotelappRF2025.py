@@ -18,7 +18,8 @@ def main():
     st.title("🌴 Predicting Cancellations at Hotel Carolina")
     st.markdown("#### 🎶 Inspired by *Hotel California* — but with a twist: data-driven decisions meet dreamy destinations.")
 
-    with open("C:/mldeploy/hotelcal.gif", "rb") as gif_file:
+    with open("hotelcal.gif", "rb") as gif_file:
+  
         gif_bytes = gif_file.read()
         st.image(gif_bytes)
 
